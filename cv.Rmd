@@ -6,32 +6,28 @@ output:
     template: "./cv-simple.tex"
     md_extensions: "-autolink_bare_uris -auto_identifiers"
 
-name: "Jacob A. Long"
+name: "Li Chuin Chong"
 
-title: "Assistant Professor"
-affiliation: "School of Journalism and Mass Communications \\hspace{.05in} \\textbullet \\hspace{.05in} University of South Carolina"
+title: "Ph.D. Candidate"
+affiliation: "TWINCORE GmbH c/o HZI \\hspace{.05in} \\textbullet \\hspace{.05in} Hannover Medical School (MHH)"
 contact:
-  - text: "jacob.long@sc.edu"
-    link: "mailto:jacob.long@sc.edu"
+  - text: "lichuinchong@twincore.de"
+    link: "mailto:lichuinchong@twincore.de"
     icon: "Envelope"
     opts: "regular"
     mono: false
-  - text: "jacob-long.com"
-    link: "https://jacob-long.com"
+  - text: "Website"
+    link: "https://chonglc.github.io/"
     icon: "Globe"
     mono: true
-  - text: "jacob-long"
-    link: "https://github.com/jacob-long"
+  - text: "ChongLC"
+    link: "https://github.com/ChongLC"
     icon: "Github"
     mono: true
-  - text: "0000-0002-1582-6214"
-    link: "https://orcid.org/0000-0002-1582-6214"
+  - text: "0000-0002-3574-1365"
+    link: "https://orcid.org/my-orcid?orcid=0000-0002-3574-1365"
     acad: "Orcid"
     mono: true
-  # - text: "jacobandrewlong"
-  #   link: "https://twitter.com/jacobandrewlong"
-  #   icon: "Twitter"
-  #   mono: false
     
 bibs:
   - "pubbed.bib"
@@ -39,17 +35,8 @@ bibs:
   - "inprogress.bib"
   - "review.bib"
   - "press.bib"
-  - "chapters.bib"
-  - "student-mentored.bib"
 
 namehash: "7ee2eb84ac3fb6ae0cc177587fcaff6a"
-grad: 
-  - name: "ali"
-    hash: "229eaeb960da910ee359a80f41542622"
-  - name: "colin"
-    hash: "93cfa8db70351056d7dcadfef470121e"
-  - name: "camryngarrett"
-    hash: "b2ac67b64316efed8629ed86270b3a90"
 
 raggedright: true
 
@@ -60,60 +47,7 @@ urlcolor: "magenta"
 
 ```{r setup, echo = FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, comment = "")
-```
 
-# Appointments
-
-## University of South Carolina \normalfont Columbia, South Carolina, USA
-
-### School of Journalism and Mass Communications 
-
-\vspace{-.05in}
-
-* Assistant Professor \hfill 2020--
-
-# Education
-
-## The Ohio State University \normalfont Columbus, Ohio, USA
-
-* PhD, Communication \hfill 2020
-
-    * Dissertation: 
-    
-        \smallskip
-    
-        ["Time Dynamics and Stability of Political Identity and Political Communication"](https://etd.ohiolink.edu/apexprod/rws_olink/r/1501/10?p10_etd_subid=186676&clear=10)
-
-    * Committee: 
-
-        \smallskip
-
-        William P. "Chip" Eveland, Jr. (advisor) 
-        \hspace{.05in} \textbullet \hspace{.05in} Michael D. Slater 
-      
-        Gerald M. Kosicki \hspace{.05in} \textbullet 
-        \hspace{.05in} Christopher R. Browning (Sociology)
-      
-        \smallskip
-
-    * Graduate Interdisciplinary Specialization in Survey Research
-
-* MA, Communication \hfill 2019
-
-## Rhodes College \normalfont Memphis, Tennessee, USA
-
-* BA with Honors, Political Science \hfill 2014
-
-    * Minors in Film Studies and English
-    * Advisors: Amy E. Jasperson and Rashna Wadia Richards
-
-# Journal Articles
-
-\UseDetailFont \textasteriskcentered: Graduate student co-author \fontsize{10pt}{12pt}
-
-\normalfont 
-
-```{r results = 'asis'}
 library(RefManageR)
 library(jtools)
 print_refs <- function(file, names = NULL) {
@@ -124,576 +58,294 @@ print_refs <- function(file, names = NULL) {
     )
   )
 }
-print_refs("pubbed.bib", "long2023")
+```
+
+# Current Appointments
+
+## TWINCORE Centre for Experimental and Clinical Infection Research \normalfont c/o Helmholtz Centre for Infection Research (HZI) | \normalfont Hannover, DE
+
+### Institute for Experimental Virology
+
+\vspace{-.05in}
+
+* Doctoral Researcher \hfill Apr 2022 - Present
+
+# Education
+
+## Hannover Medical School | \normalfont Hannover Biomedical Research School, Germany
+
+* Ph.D., Biomedical Data Science \hfill Apr 2022 - Present
+  * Supervisory committee: Chris Lauber (main), Stefan Seitz, Alice Mc Hardy, Daniel P. Depledge
+
+## Perdana University | \normalfont School of Data Sciences, Malaysia
+
+* M.Sc. by Research, Bioinformatics \hfill 2020
+  * Dissertation: Mapping the minimal set of the viral peptidome 
+  * Awarded with Distinction
+  * Supervisory committee: Asif M. Khan (main), Sy Bing Choi, Kenneth Ban Hon Kim
+ 
+## Universiti Putra Malaysia | \normalfont Faculty of Medicine and Health Sciences, Malaysia
+
+* B.Sc., Biomedical Sciences \hfill 2018
+  * Dissertation: Expression, purification and characterisation of the protruding domain of \textit{Macrobrachium rosenbergii} nodavirus capsid protein
+  * Supervisory committee: Kok Lian Ho, Abdah MD Akim
+    
+
+# Professional Experience
+## Visiting Research Fellow \normalfont \hfill Sep 2023 - Present
+  GISAID EpiArbo\texttrademark
+
+## Visiting Trainee \normalfont \hfill Oct - Nov 2023
+  Division of Virus Associated Carcinogenesis (F170), German Cancer Research Center (DKFZ), Germany
+
+## Research Intern \normalfont \hfill May 2020 - Dec 2021
+  Faculty of Medical Technology, Mahidol University, Thailand
+  
+## International Visiting Researcher \normalfont \hfill Feb - Sep 2021  
+  Beykoz Institute of Life Sciences and Biotechnology (BILSAB), Bezmialem Vakif University, Turkey
+  
+## Research Assistant \normalfont \hfill Sep - Dec 2020
+  Faculty of Dentistry, University of Malaya, Malaysia \& Cancer Research Malaysia
+
+  
+# Publications
+
+```{r results = 'asis'}
+print_refs <- function(file, names = NULL) {
+  refs <- ReadBib(file, check = FALSE)
+  cat(paste0("\\fullcitebib{", paste(
+      c(names(refs) %just% names, names(sort(refs, sorting = "ydnt")) %not% names), 
+      collapse = ", "), "}"
+    )
+  )
+}
+print_refs("pubbed_no_ann.bib")
 ```
 
 # Book Chapters
 
-```{r results = 'asis'}
-BibOptions(check.entries = FALSE)
-source("biblatex_hacks.R")
-chaps <- ReadBib("chapters.bib")
-for (entry in names(chaps)) {  
-  for (i in 1:length(chaps[[entry]]$author)) {
-    if ("Jr." %in% chaps[[entry]]$author[[i]]$family) {
-      family <- chaps[[entry]]$author[[i]]$family
-      family %just% "Jr." <- ", Jr."
-      given <- chaps[[entry]]$author[[i]]$given
-      the_person <- person(given = given, family = family)
-    } else {the_person <- chaps[[entry]]$author[[i]]}
-    if (exists("auths")) {
-      auths <- c(auths, the_person)
-    } else {
-      auths <- the_person
-    }
-  }
-  chaps[[entry]]$author <- auths
-  rm(auths)
-}
-write_bib(chaps, "chapters.bib")
-print_refs("chapters.bib")
+```{r results='asis'}
+print_refs("books.bib")
 ```
 
 # Software
 
-## R Packages
-
-### `jtools`: Analysis and presentation of social scientific data. 
-
-```{r echo = FALSE}
-library(rvest)
-library(magrittr)
-prof_url <- "https://scholar.google.com/citations?hl=en&user=fi-oVkIAAAAJ&view_op=list_works&citft=1&citft=2&email_for_op=jlongrc%40gmail.com&gmla=AJsN-F6U0W7Pb2H2sGdtSobMNTJR-HLu-OQ8kKCZeXg1EycF_GfWYLB54v7H5SlMcGBqKUjGlMnSkJlG3j0fM8wMhBJz2i4iM5kAVUf2PeoGyCMgeTkkLwA&gmla=AJsN-F7fklbe6gqvPjDweKtwwyvicMTZxtpVLPRUTNteYwXL1tMV7xHD81vwhCXcs_suOKGI83V7y8c_R5a_GxNBIkkarl0D6W7yKCwU2m9JqJ0Mzupk46M&sciund=729968478779288"
-
-gsch_page <- read_html(prof_url)
-gsch_page %>%
-  html_nodes("tr.gsc_a_tr") %>%
-  .[stringr::str_detect(html_text(.), "jtools")] %>%
-  html_children() %>%
-  html_text() %>%
-  .[2] %>%
-  stringr::str_replace_all("\\*", "") -> jtools_gsch
-
-gsch_page %>%
-    html_nodes("tr.gsc_a_tr") %>%
-    .[stringr::str_detect(html_text(.), "jtools")] %>%
-    html_nodes("a") %>% 
-    html_attr("href") %>%
-    .[stringr::str_detect(., "scholar\\.google\\.com")] -> jtools_gsch_link
-
-gsch_page %>%
-  html_nodes("tr.gsc_a_tr") %>%
-  .[stringr::str_detect(html_text(.), "interactions")] %>%
-  html_children() %>%
-  html_text() %>%
-  .[2] %>%
-  stringr::str_replace_all("\\*", "") -> ints_gsch
-
-gsch_page %>%
-    html_nodes("tr.gsc_a_tr") %>%
-    .[stringr::str_detect(html_text(.), "interactions")] %>%
-    html_nodes("a") %>% 
-    html_attr("href") %>%
-    .[stringr::str_detect(., "scholar\\.google\\.com")] -> ints_gsch_link
-
-# jtools_gsch <- as.numeric(jtools_gsch) - as.numeric(ints_gsch)
-
-library(jsonlite)
-url <- paste0("https://cranlogs.r-pkg.org/downloads/total/2014-01-01:", Sys.Date(), "/interactions")
-interactions_cranlogs <- fromJSON(url)[["downloads"]]
-
-library(jsonlite)
-url <- paste0("https://cranlogs.r-pkg.org/downloads/total/2014-01-01:", Sys.Date(), "/jtools")
-jtools_cranlogs <- fromJSON(url)[["downloads"]]
-```
-
-\small
-\vspace{-.05in}
-
-* \faRProject \ [CRAN](https://CRAN.R-project.org/package=jtools) 
+### \textbf{UNIQmin}: An alignment-independent tool for the study of pathogen sequence diversity at any given rank of taxonomy lineage
+\small \vspace{-.05in}
+* \faPython \ [PyPi](https://pypi.org/project/uniqmin/)
 \hspace{.03in} \textbullet \hspace{.05in} 
-\faGithub \hspace{.02in} [jacob-long/jtools](https://github.com/jacob-long/jtools)
-\hspace{.03in} \textbullet \hspace{.05in} 
-\faGlobe \hspace{.02in} [jtools.jacob-long.com](https://jtools.jacob-long.com)
-
-    * `r jtools_gsch` scholarly citations per
-    [Google Scholar](`r jtools_gsch_link`) as of `r format(Sys.Date(), "%m/%d/%Y")`
-    * `r format(jtools_cranlogs, big.mark = ",", scientific = FALSE)` downloads from RStudio's
-    [CRAN mirror](https://r-pkg.org/services#cranlogs) since 2/27/2017 initial release
-    * Featured in [R for Political Data Science: A Practical Guide](https://www.routledge.com/R-for-Political-Data-Science-A-Practical-Guide/Urdinez-Cruz/p/book/9780367818890).
-
-```{r echo = FALSE}
-## Until Scholar distinguishes these correctly, need to process this 
-## earlier in the document
-# read_html(prof_url) %>%
-#   html_nodes("tr.gsc_a_tr") %>%
-#   .[stringr::str_detect(html_text(.), "interactions")] %>%
-#   html_children() %>%
-#   html_text() %>%
-#   .[2] %>%
-#   stringr::str_replace_all("\\*", "") -> ints_gsch
-# 
-# read_html(prof_url) %>%
-#     html_nodes("tr.gsc_a_tr") %>%
-#     .[stringr::str_detect(html_text(.), "interactions")] %>%
-#     html_nodes("a") %>% 
-#     html_attr("href") %>%
-#     .[stringr::str_detect(., "scholar\\.google\\.com")] -> ints_gsch_link
-# 
-# library(jsonlite)
-# url <- paste0("https://cranlogs.r-pkg.org/downloads/total/2014-01-01:", Sys.Date(), "/interactions")
-# interactions_cranlogs <- fromJSON(url)[["downloads"]]
-```
+\faGithub \hspace{.02in} [UNIQmin](https://github.com/ChongLC/MinimalSetofViralPeptidome-UNIQmin)
+* Role: Developer (main) and maintainer
 
 \normalsize 
-
-### `interactions`: Comprehensive, user-friendly toolkit for probing interactions.
-
-\small 
-\vspace{-.05in}
-
-* \faRProject \ [CRAN](https://CRAN.R-project.org/package=interactions) 
+### \textbf{vDiveR}: A graphical user interface (GUI)-based web application hosted on R Shiny for the visualization of various diversity dynamics
+\small \vspace{-.05in}
+* \faRProject \ [CRAN](https://cran.r-project.org/web/packages/vDiveR/index.html) 
 \hspace{.03in} \textbullet \hspace{.05in} 
-\faGithub \hspace{.02in} [jacob-long/interactions](https://github.com/jacob-long/interactions)
-\hspace{.03in} \textbullet \hspace{.05in} 
-\faGlobe \hspace{.02in} [interactions.jacob-long.com](https://interactions.jacob-long.com)
+\faGithub \hspace{.02in} [vDiveR](https://github.com/pendy05/DiveR)
+* Role: Domain expert
 
-    * `r ints_gsch` scholarly citations per
-    [Google Scholar](`r ints_gsch_link`) as of `r format(Sys.Date(), "%m/%d/%Y")`
-    * Reviewed favorably by 
-    [Lin (2020)](https://doi.org/10.1080/10705511.2020.1732826) in the journal
-    *Structural Equation Modeling*.
-    * `r format(interactions_cranlogs, big.mark = ",", scientific = FALSE)` downloads from RStudio's
-    [CRAN mirror](https://r-pkg.org/services#cranlogs) since 2/19/2019 initial release
-    * Highlighted as a [top new package](https://rviews.rstudio.com/2019/03/26/february-2019-top-40-new-cran-packages/)
-     in February 2019
+
+# Presentations 
+
+## Invited talks
 
 \normalsize
 
-### `panelr`: Regression models and utilities for repeated measures and panel data.
+Unravelling the virosphere: Insights from viral discovery and sequence diversity analysis 
 
-```{r echo = FALSE}
-gsch_page %>%
-  html_nodes("tr.gsc_a_tr") %>%
-  .[stringr::str_detect(html_text(.), "panelr")] %>%
-  html_children() %>%
-  html_text() %>%
-  .[2] %>%
-  stringr::str_replace_all("\\*", "") -> panelr_gsch
+\vspace{-.07in} \hfill \small 17 Jun 2023 \thinspace
 
-gsch_page %>%
-    html_nodes("tr.gsc_a_tr") %>%
-    .[stringr::str_detect(html_text(.), "panelr")] %>%
-    html_nodes("a") %>% 
-    html_attr("href") %>%
-    .[stringr::str_detect(., "scholar\\.google\\.com")] -> panelr_gsch_link
+\phantom{.5in} \textbullet{} \small Guest Lecture series of Indonesian Medical Education and Research Institute (IMERI)
 
-library(jsonlite)
-url <- paste0("https://cranlogs.r-pkg.org/downloads/total/2014-01-01:", Sys.Date(), "/panelr")
-panelr_cranlogs <- fromJSON(url)[["downloads"]]
-```
-
-\small 
-\vspace{-.05in}
-
-* \faRProject \ [CRAN](https://CRAN.R-project.org/package=panelr) 
-\hspace{.03in} \textbullet \hspace{.05in} 
-\faGithub \hspace{.02in} [jacob-long/panelr](https://github.com/jacob-long/panelr)
-\hspace{.03in} \textbullet \hspace{.05in} 
-\faGlobe \hspace{.02in} [panelr.jacob-long.com](https://panelr.jacob-long.com)
-
-    * `r panelr_gsch` scholarly citations per
-    [Google Scholar](`r panelr_gsch_link`) as of `r format(Sys.Date(), "%m/%d/%Y")`
-    * `r format(panelr_cranlogs, big.mark = ",", scientific = FALSE)` downloads from RStudio's
-    [CRAN mirror](https://r-pkg.org/services#cranlogs) since 5/16/2019 initial release
-
+## Contributed talks
 
 \normalsize
 
-### `dpm`: Dynamic panel models fit with maximum likelihood. 
+A near-full compression of SARS-CoV-2 peptidome using UNIQmin 
 
-```{r echo = FALSE}
-# gsch_page %>%
-#   html_nodes("tr.gsc_a_tr") %>%
-#   .[stringr::str_detect(html_text(.), "panelr")] %>%
-#   html_children() %>%
-#   html_text() %>%
-#   .[2] %>%
-#   stringr::str_replace_all("\\*", "") -> panelr_gsch
+\vspace{-.07in} \hfill \small 12-21 Sep 2022 \thinspace
 
-# gsch_page %>%
-#     html_nodes("tr.gsc_a_tr") %>%
-#     .[stringr::str_detect(html_text(.), "panelr")] %>%
-#     html_nodes("a") %>% 
-#     html_attr("href") %>%
-#     .[stringr::str_detect(., "scholar\\.google\\.com")] -> panelr_gsch_link
-
-library(jsonlite)
-url <- paste0("https://cranlogs.r-pkg.org/downloads/total/2014-01-01:", Sys.Date(), "/dpm")
-dpm_cranlogs <- fromJSON(url)[["downloads"]]
-```
-
-\small 
-\vspace{-.05in}
-
-* \faRProject \ [CRAN](https://CRAN.R-project.org/package=dpm) 
-\hspace{.03in} \textbullet \hspace{.05in} 
-\faGithub \hspace{.02in} [jacob-long/dpm](https://github.com/jacob-long/dpm)
-\hspace{.03in} \textbullet \hspace{.05in} 
-\faGlobe \hspace{.02in} [dpm.jacob-long.com](https://dpm.jacob-long.com)
-
-    * `r format(dpm_cranlogs, big.mark = ",", scientific = FALSE)` downloads from RStudio's
-    [CRAN mirror](https://r-pkg.org/services#cranlogs) since 1/16/2024 initial release
-
-* Authors: **Jacob A. Long**, Richard A. Williams, Paul D. Allison
-
-\normalsize
-
-I am also a contributor to the [`easystats`](https://easystats.github.io/blog/)
-project, which is developing a suite of R packages to facilitate simple and
-accessible statistical analysis.
-
-## Other
-
-Song and Lyric Data Scraper [Ruby app]. Accompanies Long \& Eveland (2021). 
-
-\vspace{-.05in}
-
-* doi:[10.5281/zenodo.1203368](https://doi.org/10.5281/zenodo.1203368)
-
-\small 
-\vspace{-.07in}
-
-* \faGithub \hspace{.02in} [github.com/jacob-long/song-and-lyric-data-scraper](https://github.com/jacob-long/song-and-lyric-data-scraper) 
-
-\normalsize
-
-# Media
-
-```{r results = 'asis'}
-library(RefManageR)
-library(jtools)
-print_refs("press.bib")
-```
-
-Interview: [WOLO-TV](https://www.abccolumbia.com/2022/10/28/one-on-one-usc-professor-explains-voting-trends-ahead-of-election-day/) (Columbia, SC)
-
-Expert quotes: [National Interest](https://nationalinterest.org/feature/why-biden-harris-ticket-could-be-unstoppable-2024-179416), [Greenville News](https://www.greenvilleonline.com/story/news/2020/09/30/record-absentee-voting-already-confusion-over-mail-ballots-witness-signatures/3571556001/)
-
-# Conference Presentations 
-
-\UseDetailFont \textasteriskcentered: Graduate student co-author \fontsize{10pt}{12pt}
-
-\normalfont 
-
-```{r results = 'asis'}
-BibOptions(check.entries = FALSE)
-source("biblatex_hacks.R")
-confs <- ReadBib("conferences.bib")
-for (entry in names(confs)) {
-  # if (!is.null(confs[[entry]]$note)) {
-  #   confs[[entry]]$annotation <- confs[[entry]]$note
-  #   confs[[entry]]$note <- NULL
-  # }
-  if (is.null(confs[[entry]]$note)) {
-    confs[[entry]]$note <- paste(
-    ifelse(is.null(confs[[entry]]$type), no = confs[[entry]]$type, yes = "Paper"),
-    "presented at the", confs[[entry]]$eventtitle
-    )
-    confs[[entry]]$type <- NULL
-  }
+\phantom{.5in} \textbullet{} \small 21st European Conference on Computational Biology (ECCB2022), Stiges, Barcelona
   
-  for (i in 1:length(confs[[entry]]$author)) {
-    if ("Jr." %in% confs[[entry]]$author[[i]]$family) {
-      family <- confs[[entry]]$author[[i]]$family
-      family %just% "Jr." <- ", Jr."
-      given <- confs[[entry]]$author[[i]]$given
-      the_person <- person(given = given, family = family)
-    } else {the_person <- confs[[entry]]$author[[i]]}
-    if (exists("auths")) {
-      auths <- c(auths, the_person)
-    } else {
-      auths <- the_person
-    }
-  }
-  confs[[entry]]$author <- auths
-  rm(auths)
-}
-write_bib(confs, "conferences.bib")
-print_refs("conferences.bib", c("zain2022", "long2022"))
-```
+\phantom{.5in} \textbullet{} \small GOBLET Fund & Malaysia Trust Fund Travel Fellowship Award
 
-<!-- # Research in Progress -->
+\normalsize
 
-<!-- ```{r results = 'asis'} -->
-<!-- print_refs("inprogress.bib", c("long", "longa", "jeonga", "jeong")) -->
-<!-- ``` -->
+Identification of highly conserved, serotype-specific dengue virus sequences: Implications for vaccine design 
+
+\vspace{-.07in}  \hfill \small 10-12 Sep 2019 \thinspace
+
+\phantom{.5in} \textbullet{} \small 18th International Conference on Bioinformatics (InCoB 2019), Jakarta, Indonesia
+
+\phantom{.5in} \textbullet{} \small APBioNET Travel Fellowship Award
+
+## Posters
+
+\normalsize
+
+Identification of RNA viruses and host reservoirs with high spillover risk 
+
+\vspace{-.07in}  \hfill \small 17-21 Oct 2022 \thinspace
+
+\phantom{.5in} \textbullet{} EMBL-EBI: Bioinformatics approach to viruses (virtual)
+
+\normalsize
+
+UNIQmin, an alignment-independent tool for the study of viral sequence diversity at any given rank of taxonomy lineage: HPC solutions for big-data performance boost 
+
+\vspace{-.07in}  \hfill \small 30 Aug-3 Sep 2021 \thinspace
+
+\phantom{.5in} \textbullet{} 2021 ACM Europe Summer School (virtual) 
+
+\normalsize
+
+Mapping the minimal set of the viral peptidome across all major viral taxonomies 
+
+\vspace{-.07in}  \hfill \small 25-30 Jul 2021 \thinspace
+
+\phantom{.5in} \textbullet{} 29th Conference on Intelligent Systems for Molecular Biology and 20th European 
+  
+  \vspace{-.07in} \phantom{.5in} Conference on Computational Biology (ISMB/ECCB 2021; virtual)
+
+\phantom{.5in} \textbullet{} ISMB/ECCB Fellowship Award
+
+\normalsize
+
+UNIQmin: An alignment-independent approach to generate a minimal set of viral peptidome 
+
+\vspace{-.07in}  \hfill \small 15-16 May 2021 \thinspace
+
+\phantom{.5in} \textbullet{} International Conference on Bioinformatics, Computational Biology, and Biomedical 
+  
+  \vspace{-.07in} \phantom{.5in} Science (ICBCBBS 2021; virtual)
+
+\phantom{.5in} \textbullet{} Best E-Poster Award
+
+\normalsize
+
+Identification of serotype-specific, highly conserved dengue virus sequences: Implications for vaccine design
+
+\vspace{-.07in}  \hfill \small 26-28 Sep 2018 \thinspace
+
+\phantom{.5in} \textbullet{} 17th International Conference on Bioinformatics (InCoB 2018), New Delhi, India
+
+\phantom{.5in} \textbullet{} ISCB Travel Fellowship Award
 
 
-<!-- # Under Review -->
-
-<!-- ```{r results = 'asis'} -->
-<!-- print_refs("review.bib",  c("longa", "eveland", "long")) -->
-<!-- ``` -->
-
-
-# Teaching
-
-## University of South Carolina
-
-### Graduate 
-
-* JOUR 717: Methods in Content Analysis Research
-    * SP21
-* JOUR 749: Literature of Mass Communication
-    * AU22, AU23, AU24
-* JOUR 790: Political Communication
-    * AU21
-* JOUR 801: Communication Research Design
-    * SP22, AU23, AU24
-    * Research conducted collaboratively in this course resulted in the following 
-    student-led publication: \newline \newline
-```{r results = 'asis'}
-library(RefManageR)
-library(jtools)
-print_refs <- function(file, names = NULL) {
-  refs <- ReadBib(file, check = FALSE)
-  cat(paste0("\\fullcitebib{", paste(
-      c(names(refs) %just% names, names(sort(refs, sorting = "ydnt")) %not% names), 
-      collapse = ", "), "}"
-    )
-  )
-}
-print_refs("student-mentored.bib")
-```
-
-### Undergraduate
-
-* JOUR 332: Mass Communications Research
-    * SP22, SP24
-* JOUR 400: Digital Media and Big Data Analysis
-    * AU20, SP21, AU21
-* JOUR 515: Mass Communications Capstone Portfolio
-    * SP23, SP24
-
-### Undergraduate/Graduate
-
-* JOUR 542: Public Opinion and Persuasion
-    * AU22, SP23
-
-## Ohio State University
-
-### Undergraduate
-
-* COMM 4820: Public Opinion and Communication
-    * SU16
-
-* COMM 3597: Media and Terrorism
-    * AU18
-
-* COMM 3554: Social Implications of Communication Technology
-    * Online: SU18, SU19
-
-* COMM 2367: Persuasive Communication
-    * AU15, SP16, AU16 
-    * Online: SP17, SU20
-    
 # Grants
 
-CIC Research Grant ($10,000), University of South Carolina \hfill 2021 \thinspace
+## Intramural Funding
 
-\phantom{.5in} with Sei-Hill Kim, Yingying Chen, and Jungmi Jun
+\normalsize Helmholtz Visiting Researcher Grant (€4,000) \hfill 2023 \thinspace
 
+\phantom{.5in} \small Role: Visiting Trainee
 
-SJMC Course Development Grant ($2000), University of South Carolina \hfill 2020 \thinspace
+## Extramural Funding
 
-Omnibus Survey for the School of Communication, Ohio State University \hfill 2016 \thinspace
+\normalsize PUTI Q1 Grant from Universitas Indonesia (IDR 120 million) \hfill 2022 \thinspace
 
+\phantom{.5in} \small Role: Collaborator
 
+\phantom{.5in} \small PI: Toar Jean Maurice Lalisang (main) & Linda Erlina (co-)
 
-\phantom{.5in} with Michael Slater, Simon Lavis, and Min Seon Jeong
+\normalsize Malaysian Medical Association (MMA) (MYR 5,000) \hfill 2019  \thinspace
+
+\phantom{.5in} \small Role: Collaborator
+
+\phantom{.5in} \small PI: Mohammad Asif Khan (main) & Choi Sy Bing (co-)
+
+\normalsize
+
 
 # Honors and Awards 
 
-Chaffee-McLeod Top Student Paper Award, AEJMC CT\&M Division \hfill 2019 \thinspace \thinspace \thinspace
+\textbullet{} GOBLET Fund Travel Fellowship for ECCB 2022 \thinspace
 
-McCombs-Shaw Top Student Paper Award (2nd place), AEJMC PCIG \hfill 2019 \thinspace \thinspace \thinspace
+\textbullet{} Malaysia Trust Fund Travel Fellowship for ECCB 2022 \thinspace 
 
-University Fellowship (Ohio State University) \hfill 2014-15 
+\textbullet{} ESCV Fellowship for ESCV 2021 \thinspace
 
-Mike Cody Award for Excellence in Political Science (Rhodes College) \hfill 2014 \thinspace \thinspace \thinspace
+\textbullet{} ISCB Fellowship for ISMB/ECCB 2021 \thinspace 
 
-Sigma Tau Delta, International English Honor Society \hfill 2014 \thinspace \thinspace \thinspace
+\textbullet{} Malaysia Trust Fund for support on publication fee for `Chong et al.(2021)` \thinspace 
 
-Pi Sigma Alpha, National Political Science Honor Society \hfill 2013 \thinspace \thinspace \thinspace
+\textbullet{} Best E-Poster Award, ICBCBBS 2021 \thinspace 
 
-Cambridge Scholarship (Rhodes College) \hfill 2010-14 
+\textbullet{} APBioNET Travel Fellowship for InCoB 2019 \thinspace
 
-Robert C. Byrd Honors Scholarship \hfill 2010-11 
+\textbullet{} ISCB Travel Fellowship for InCoB 2018 \thinspace
 
-# Professional Experience
+\textbullet{} Public Service Department – National Degree Programme (JPA-PIDN) Scholarship for B.Sc. (Biomedical Sciences) 2015-2018 \thinspace
 
-## Copywriter, AndroidPolice.com \normalfont \hfill 2017-18
-Wrote ad copy for clients who purchased native advertising on Android Police.
 
-## Staff Writer, AndroidPolice.com \normalfont \hfill 2014-16
-Android Police is a technology news website with over 5 million unique visitors per month. 
+\newpage
+\normalsize
 
-## Freelance, WMC-TV 5, \normalfont Memphis, TN \hfill 2011 \thinspace \thinspace \thinspace
-Followed experience as news intern. Participated in editorial meetings, assisted reporters, anchors,
-and producers, and worked assignment desk on weekends. Wrote content for newscasts and web.
+# Teaching and Service
+
+## Graduate Student Supervisor
+\textit{Supervisor} 
+
+  Stephen Sugiharto \hspace{.03in} \textbullet \hspace{.05in} B.Sc. (Bioinformatics), I3L, ID \hfill 2022-2023 \thinspace
+
 
 <!-- \newpage -->
 
-# Service
 
-## Doctoral Committees
+## Student Mentor
 
-* Adetutu Wande-Kayode \hfill (ongoing)
-* Shelbretta Ball \hfill 2023
+  Tham Hong Yun \hspace{.03in} \textbullet \hspace{.05in} Ph.D. (Microbiology), UPM, MY \hfill 2018-2024 \thinspace
+  
+  Sofiah binti Tajuddin \hspace{.03in} \textbullet \hspace{.05in} M.Sc. (Microbiology), UPM, MY \hfill 2019-2022 \thinspace
+  
+  Srosha Khanjou \hspace{.03in} \textbullet \hspace{.05in} BASc (Medicine), MUIC, TH \hfill 2020-2021 \thinspace
 
-## Masters Committees
+  Interns at CaRE UPM*  \hspace{.03in} \textbullet \hspace{.05in} B.Sc. (Biomedical Sciences), UPM, MY \hfill 2018 \thinspace
+  
+  \hspace{1.48in} \textbullet \hspace{.05in} B.Sc. (Biomedical Sciences), UM, MY \hfill 2018 \thinspace
+  
+  \scriptsize *UPM: Siti Najiha Binti Abu Bakar, Anis Zuhaida Binti Mamnun, Nor Shamira Rosdi, Muhammad Rusydie Mohd Rasid; UM: Aisyah Shamsuddin, Wardah Othman, Nurhusna Abd Samad
+  
+  \normalsize
+  Interns at CaRE UPM*  \hspace{.03in} \textbullet \hspace{.05in} B.Sc. (Biomedical Sciences), UPM, MY \hfill 2017 \thinspace
+  
+  \scriptsize *UPM: Eugene Chua, Ong Si Ying, Teo Yu Yun, Lim Xin, Khor Winnie, Lok Zen Hui, Even Lim
+  
+\normalsize
 
-* Xin Tao \hfill 2023
+## Outreach & Professional Societies
+\textit{Leadership}
 
-## BARSC/Honor's Thesis Committees
+  \textbullet{} Finance Committee Member, ISCB Student Council (ISCBSC) \hfill 2023-Present \thinspace
+  
+  \textbullet{} Ambassador, Asia Pacific Bioinformatics Network (APBioNET) \hfill 2021-2022 \thinspace
+  
+  \textbullet{} Public Relations & Outreach (PRO) Committee Member, Global Organisation for Bioinformatics Learning, Education & Training (GOBLET) \hfill 2019-2021 \thinspace
+  
+  \textbullet{} Executive Council of Association for Medical and Bio-Informatics Singapore (AMBIS) \hfill 2018-2019 \thinspace
+  
+  \textbullet{} Executive Council of Alumni and Leadership of Biomedical Science Club, UPM \hfill 2015 \thinspace
 
-* Tommy Holter \hfill (ongoing)
 
-## To Institution
+# References
 
-*University of South Carolina, School of Journalism and Mass Communications*
+\begin{multicols}{2}
 
-Chair, Technology Committee \hfill 2021-
+\textbf{Dr. Chris Lauber} \\
+\textit{Head of Computational Virology} \\
+Institute of Experimental Virology, TWINCORE GmbH \\
+\textit{Assistant Professor} \\
+RESIST Cluster of Excellence, Medizinische Hochschule Hannover (MHH) \\
+Hannover, Germany \\
+\href{mailto:chris.lauber@twincore.de}{chris.lauber@twincore.de}
 
-Policies & Procedures Committee \hfill 2020-
+\columnbreak
 
-SONA administrator \hfill 2021-22
-
-Faculty Search Committee (Data, Media, and Society) \hfill 2020-21
-
-\medskip
-
-*University of South Carolina, College of Information and Communications*
-
-Faculty Advisory Committee \hfill 2022-
-
-Faculty Search Committee (UNESCO Chair) \hfill 2022-23
-
-Faculty Budget Committee \hfill 2023-
-
-\medskip
-
-*Ohio State University, School of Communication*
-
-Peer Mentor \hfill 2019-20
-
-## To Discipline
-
-*Panel Moderator*, BEA On-Site Conference, Columbia, SC \hfill 2023
-
-*Graduate Student Liaison*, AEJMC Comm. Theory & Methodology Division \hfill 2019-20
-
-## Journal Reviewing
-
-```{r}
-# Use Publons API to keep track of my reviews
-library(httr)
-library(jsonlite)
-pub_api <- GET(
-  "https://publons.com/api/v2/academic/AAB-9838-2019", 
-  add_headers(Authorization = "Token ccce5e0b2a2c88f67beb5aac0f0ed93cd93eeebb"),
-  accept_json()
-)
-
-if (!grepl("too many", pub_api)) {
-  pub_api %>% 
-    .[["content"]] %>%
-    rawToChar() %>%
-    fromJSON() %>%
-    .[["reviews"]] %>%
-    .[["pre"]] %>%
-    .[["count"]] -> num_reviews
-} else {
-  num_reviews <- 32
-}
-```
-
-`r num_reviews` peer reviews verified by [Web of Science](https://www.webofscience.com/wos/author/record/AAB-9838-2019) since 2019.
-
-* Atlantic Journal of Communication (2022 x2)
-* Communication Research (2021, 2022, 2023 x2, 2024)
-* European Journal of Information Systems (2023)
-* International Journal of Communication (2020 x2, 2021 x3, 2023 x2)
-* International Journal of Press/Politics (2020, 2024)
-* Journal of Broadcasting & Electronic Media (2021)
-* Journal of Communication (2019)
-* Journal of Communication Technology (2021 x2, 2023)
-* Journal of Computer-Mediated Communication (2020, 2021)
-* Journalism and Mass Communication Quarterly (2021)
-* Mass Communication and Society (2020, 2021 x2, 2022 x2, 2023)
-* Media Psychology (2019, 2020, 2021)
-* New Media & Society (2022, 2024)
-* Southern Journal of Communication (2021)
-
-## Conference Reviewing
-
-*International Communication Association:*
-
-* Mass Communication Division (2018)
-* Political Communication Division (2018, 2019, 2021, 2022)
-* Computational Methods Division (2019, 2021, 2022)
-
-*Association for Education in Journalism and Mass Communication*:
-
-* Political Communication Division (2019, 2020)
-* Midwinter Conference (2021)
-
-*National Communication Association:*
-
-* Mass Communication Division (2017)
-* Political Communication Division (2017)
-
-<!-- # Additional Training -->
-
-<!-- Social Network Analysis workshops at the *10th Annual Political Networks Conference*, Columbus, OH, May 2017 -->
-
-<!-- Structural Equation Modeling Seminar by *Statistical Horizons*, Columbus, OH, August 2016  -->
-
-<!-- \pagebreak -->
-
-<!-- # References -->
-
-<!-- \begin{multicols}{2} -->
-
-<!-- \textbf{William P. ``Chip'' Eveland, Jr.} \\ -->
-<!-- \textit{Professor of Communication} \\ -->
-<!-- \textit{Professor of Political Science (by courtesy)} \\ -->
-<!-- School of Communication \\ -->
-<!-- The Ohio State University \\  -->
-<!-- 3139 Derby Hall \\ -->
-<!-- 154 North Oval Mall \\ -->
-<!-- Columbus, OH 43210 \\ -->
-<!-- \href{mailto:eveland.6@osu.edu}{eveland.6@osu.edu} -->
-
-<!-- \textbf{Gerald M. Kosicki} \\ -->
-<!-- \textit{Associate Professor} \\ -->
-<!-- \textit{Section Head, Journalism Programs} \\ -->
-<!-- School of Communication \\ -->
-<!-- The Ohio State University \\  -->
-<!-- 3138 Derby Hall \\ -->
-<!-- 154 North Oval Mall \\ -->
-<!-- Columbus, OH 43210 \\ -->
-<!-- \href{mailto:kosicki.1@osu.edu}{kosicki.1@osu.edu} -->
-
-<!-- \columnbreak -->
-
-<!-- \textbf{Michael D. Slater} \\ -->
-<!-- \textit{Social and Behavioral Sciences \\ Distinguished Professor \\ -->
-<!-- Director}, School of Communication \\ -->
-<!-- The Ohio State University \\  -->
-<!-- 3022 Derby Hall \\ -->
-<!-- 154 North Oval Mall \\ -->
-<!-- Columbus, OH 43210 \\ -->
-<!-- \href{mailto:slater.59@osu.edu}{slater.59@osu.edu} -->
-<!-- \end{multicols} -->
+\textbf{Dr. Mohammad Asif Khan} \\
+\textit{Professor and Associate Dean} \\
+College of Computing and Information Technology \\
+University of Doha for Science and Technology (UDST) \\
+Doha, Qatar \\
+\href{mailto:asif.khan@udst.edu.qa}{asif.khan@udst.edu.qa}
+\end{multicols}
