@@ -117,7 +117,7 @@ includefoot]{geometry}
 % Scale = 1.00]
 % {Aleo-Regular.otf}
 \setmainfont
-[Path=./Fonts/,
+[Path=./fonts/,
 ItalicFont=IBMPlexSerif-Italic,
 BoldFont=IBMPlexSerif-Bold,
 BoldItalicFont=IBMPlexSerif-BoldItalic,
@@ -135,7 +135,7 @@ Scale = 1.00]
 % Available via Google Fonts
 \newcommand{\UseSecondaryFont}{
 \fontspec
-[Path=./Fonts/,
+[Path=./fonts/,
 ItalicFont=Raleway-Italic,
 BoldFont=Raleway-Bold,
 BoldItalicFont=Raleway-BoldItalic]
@@ -160,9 +160,10 @@ BoldItalicFont=Raleway-BoldItalic]
 % {Aleo-Regular.otf}
 % }
 
-\newcommand{\fallbackUnicode}{
-\fontspec{Arial}
-}
+%\newcommand{\fallbackUnicode}{
+%\fontspec{Arial}
+%}
+\newcommand{\fallbackUnicode}{\setmainfont{IBMPlexSerif-Regular.otf}}
 
 % Sans-serif font: Changed to main font, Cabin.
 \renewcommand{\sffamily}{\rmfamily}
@@ -171,7 +172,7 @@ BoldItalicFont=Raleway-BoldItalic]
 % Available via Google Fonts and elsewhere
 \renewcommand{\ttfamily}{
 \fontspec
-[Path=./Fonts/,
+[Path=./fonts/,
 ItalicFont=IBMPlexMono-Italic,
 BoldFont=IBMPlexMono-Bold,
 BoldItalicFont=IBMPlexMono-BoldItalic,
