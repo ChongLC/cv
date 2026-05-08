@@ -9,17 +9,17 @@ output:
 name: "Li Chuin Chong"
 
 title: "Ph.D. Candidate"
-affiliation: "TWINCORE GmbH c/o HZI \\hspace{.05in} \\textbullet \\hspace{.05in} Hannover Medical School (MHH)"
+affiliation: "TWINCORE GmbH c/o HZI \\hspace{.05in} \\textbullet \\hspace{.05in} Hannover Medical School"
 contact:
   - text: "lichuinchong@twincore.de"
     link: "mailto:lichuinchong@twincore.de"
     icon: "Envelope"
     opts: "regular"
     mono: false
-  - text: "Website"
-    link: "https://chonglc.github.io/"
-    icon: "Globe"
-    mono: true
+#  - text: "Website"
+#    link: "https://chonglc.github.io/"
+#    icon: "Globe"
+#    mono: true
   - text: "ChongLC"
     link: "https://github.com/ChongLC"
     icon: "Github"
@@ -28,6 +28,7 @@ contact:
     link: "https://orcid.org/my-orcid?orcid=0000-0002-3574-1365"
     acad: "Orcid"
     mono: true
+photo: "profile-img-compressed.jpg"
     
 bibs:
   - "pubbed.bib"
@@ -60,6 +61,17 @@ print_refs <- function(file, names = NULL) {
 }
 ```
 
+# Summary
+<!-- An enthusiastic scientist with a profound interest in viral evolution and the application of vaccine design. Given the importance of bioinformatics in biomedical science research, I began my transition from bench-work to bioinformatics since 2017. I am interested in better understanding how vaccines/drugs work towards a more effective prevention/clearance of viral diseases, and how to overcome diseases with no or lack of an effective prophylactic or therapeutic intervention. Currently, my focus is on assessing the spillover risks and patterns that contribute to the pandemic potential of RNA viruses. -->
+
+I am a computational virologist working at the interface of viral evolution, large-scale sequence analysis, and data-driven modeling. My research focuses on understanding viral diversity and emergence using high-throughput sequencing data. I develop scalable computational approaches for virus discovery, diversity analysis, and spillover risk assessment, with a particular interest in quantitative and integrative frameworks for studying viral evolution.
+
+Currently, I am a PhD candidate in Biomedical Data Science at Hannover Medical School (TWINCORE), where my work is associated with the COVIPA consortium that focus on gathering the knowledge about virological and immunological drivers of COVID-19 pathogenesis.
+\thinspace
+
+\small Virus evolution \hspace{.03in} \textbullet \hspace{.03in} Virus discovery \hspace{.03in} \textbullet \hspace{.03in} Spillover risk modelling
+
+
 # Current Appointments
 
 ## TWINCORE Centre for Experimental and Clinical Infection Research \normalfont c/o Helmholtz Centre for Infection Research (HZI) | \normalfont Hannover, DE
@@ -68,36 +80,38 @@ print_refs <- function(file, names = NULL) {
 
 \vspace{-.05in}
 
-* Doctoral Researcher \hfill Apr 2022 - Present
+- Doctoral Researcher \hfill Apr 2022 - Present
 
 # Education
 
 ## Hannover Medical School | \normalfont Hannover Biomedical Research School, Germany
 
-* Ph.D., Biomedical Data Science \hfill Apr 2022 - Present
-  * Supervisory committee: Chris Lauber (main), Stefan Seitz, Alice Mc Hardy, Daniel P. Depledge
+- \textbf{Ph.D.}, Biomedical Data Science \hfill Apr 2022 - Present
+  - Project title: Increasing pandemic preparedness by computational high-throughput virus discovery: Identification of RNA viruses and host reservoirs with high spillover risk
+  - Supervisory committee: Chris Lauber (main), Stefan Seitz, Alice McHardy, Daniel P. Depledge
 
 ## Perdana University | \normalfont School of Data Sciences, Malaysia
 
-* M.Sc. by Research, Bioinformatics \hfill 2020
-  * Dissertation: Mapping the minimal set of the viral peptidome 
-  * Awarded with Distinction
-  * Supervisory committee: Asif M. Khan (main), Sy Bing Choi, Kenneth Ban Hon Kim
+- \textbf{MRes}, Bioinformatics \hfill 2020
+  - Dissertation: Mapping the minimal set of the viral peptidome 
+  - Awarded with Distinction (the highest)
+  - Supervisory committee: Asif M. Khan (main), Sy Bing Choi, Kenneth Ban Hon Kim
  
 ## Universiti Putra Malaysia | \normalfont Faculty of Medicine and Health Sciences, Malaysia
 
-* B.Sc., Biomedical Sciences \hfill 2018
-  * Dissertation: Expression, purification and characterisation of the protruding domain of \textit{Macrobrachium rosenbergii} nodavirus capsid protein
-  * Supervisory committee: Kok Lian Ho, Abdah MD Akim
+- \textbf{B.Sc.}, Biomedical Sciences \hfill 2018
+  - Dissertation: Expression, purification and characterisation of the protruding domain of \textit{Macrobrachium rosenbergii} nodavirus capsid protein
+  - Supervisory committee: Kok Lian Ho, Abdah MD Akim
     
 
 # Professional Experience
-## Visiting Research Fellow \normalfont \hfill Sep 2023 - Present
-  GISAID EpiArbo\texttrademark
+## Doctoral Researcher \normalfont \hfill Apr 2022 - Present
+  Institute for Experimental Virology, TWINCORE Centre for Experimental and Clinical Infection Research \normalfont c/o Helmholtz Centre for Infection Research (HZI), Germany
 
 ## Visiting Trainee \normalfont \hfill Oct - Nov 2023
   Division of Virus Associated Carcinogenesis (F170), German Cancer Research Center (DKFZ), Germany
 
+\newpage
 ## Research Intern \normalfont \hfill May 2020 - Dec 2021
   Faculty of Medical Technology, Mahidol University, Thailand
   
@@ -107,9 +121,48 @@ print_refs <- function(file, names = NULL) {
 ## Research Assistant \normalfont \hfill Sep - Dec 2020
   Faculty of Dentistry, University of Malaya, Malaysia \& Cancer Research Malaysia
 
+## Research Assistant \normalfont \hfill Dec 2019 - May 2020
+  Perdana University School of Data Sciences (PU-ScDS), Malaysia
   
-# Publications
 
+# Skills
+## Experimental Techniques (previously used)
+- **Molecular biology**: Plasmid/DNA extraction, Gel electrophoresis (Agarose/SDS-PAGE), Protein expression, Western blotting (semi-dry method), Bradford assay, Protein quantification, Immobilised metal affinity chromatography (IMAC), Gravity-flow chromatography, Size exclusion chromatography (Fast protein liquid chromatography (FPLC)), Circular dichroism (CD), Dynamic light scattering (DLS), Polymerase Chain Reaction (PCR)
+- **_In vivo_ techniques**: Rat/mice dissection, Animal phlebotomy (rat/mice/dog model)
+
+## Bioinformatics
+- **Comparative genomics & Phylogenetics**: Multiple sequence alignment, Molecular phylogenetics, Sequence clustering, Phylogenetic tree construction
+- **Vaccine informatics & Immunoinformatics**: Entropy-based quantitative analysis, Motif identifitransmission analysis, Diversity analysis, Immune-relevance analysis
+- **Structural bioinformatics**: Protein and RNA structure annotation, Structural visualisation (PyMOL, UCSF Chimera, VMD), Secondary structure prediction, Protein primary structure analysis, Protein-protein docking analysis, Protein-protein interaction analysis
+- **Viral informatics & Metagenomics**: Viral genome annotation, SRA-based virus discovery, Metagenomic virome profiling (Taxonomic chracterization of viromes, Abundance estimation of viral population), Host-pathogen interaction analysis
+- **High performance computing (HPC) environments**: PBS, SLURM
+- **Workflow automation and management**: Snakemake
+
+## Data Science
+- Exploratory data analysis, Data visualisation, Web scraping, Application development, Biostatistics
+
+## Web Development
+- HTML, CSS, JavaScript
+
+## Programming Languages (intermediate)
+- Python, R, Shell scripting, GitHub CI/CD pipeline
+
+
+\newpage
+# Publications
+**Citations:** 395 | **h-index:** 11 | **Papers Published:** 25
+
+### For a complete list of publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=NSDlr5IAAAAJ&hl=en).
+
+\vspace{0.3cm}
+
+\textbf{Chong et al.} Quantifying Zoonotic Spillover Risk: Identifying High Risk RNA Viruses with PREDICTORix. \textit{Manuscript in preparation.}
+
+\vspace{0.35cm}
+
+\noindent\textit{(selected; \textsuperscript{*}co-first author)}
+
+\vspace{0.3cm}
 ```{r results = 'asis'}
 print_refs <- function(file, names = NULL) {
   refs <- ReadBib(file, check = FALSE)
@@ -130,25 +183,113 @@ print_refs("books.bib")
 
 # Software
 
+### \textbf{PREDICTORix}: A scalable, phylogeny-aware pipeline for quantifying RNA virus spillover risk
+\small \vspace{-.05in}
+* \faGithub \hspace{.02in} PREDICTORix (private mode) \hspace{.03in} \textbullet \hspace{.05in} Developer (main)
+
+\normalsize 
 ### \textbf{UNIQmin}: An alignment-independent tool for the study of pathogen sequence diversity at any given rank of taxonomy lineage
 \small \vspace{-.05in}
 * \faPython \ [PyPi](https://pypi.org/project/uniqmin/)
 \hspace{.03in} \textbullet \hspace{.05in} 
-\faGithub \hspace{.02in} [UNIQmin](https://github.com/ChongLC/MinimalSetofViralPeptidome-UNIQmin)
-* Role: Developer (main) and maintainer
+\faGithub \hspace{.02in} [UNIQmin](https://github.com/ChongLC/MinimalSetofViralPeptidome-UNIQmin) \hspace{.03in} \textbullet \hspace{.05in} Developer (main) and maintainer
 
 \normalsize 
 ### \textbf{vDiveR}: A graphical user interface (GUI)-based web application hosted on R Shiny for the visualization of various diversity dynamics
 \small \vspace{-.05in}
 * \faRProject \ [CRAN](https://cran.r-project.org/web/packages/vDiveR/index.html) 
 \hspace{.03in} \textbullet \hspace{.05in} 
-\faGithub \hspace{.02in} [vDiveR](https://github.com/pendy05/DiveR)
-* Role: Domain expert
+\faGithub \hspace{.02in} [vDiveR](https://github.com/pendy05/DiveR) \hspace{.03in} \textbullet \hspace{.05in} Co-developer
+
+\normalsize 
+### \textbf{VirusHunterGatherer}: A Snakemake pipeline for data-driven virus discovery
+\small \vspace{-.05in}
+* \faGithub \hspace{.02in} [VirusHunterGatherer](https://github.com/lauberlab/VirusHunterGatherer) \hspace{.03in} \textbullet \hspace{.05in} Contributor
+
+\normalsize 
+### \textbf{Virusparies}: An R package designed for visualizing outputs from VirusHunterGatherer
+\small \vspace{-.05in}
+* \faGithub \hspace{.02in} [Virusparies](https://github.com/SergejRuff/Virusparies) \hspace{.03in} \textbullet \hspace{.05in} Contributor
+
+# Grants
+
+## Intramural Funding
+
+\normalsize Helmholtz Visiting Researcher Grant (€4,000) \hfill 2023 \thinspace
+
+\phantom{.5in} \small Role: Visiting Trainee
+
+## Extramural Funding
+
+\normalsize PUTI Q1 Grant from Universitas Indonesia (IDR 120 million) \hfill 2022 \thinspace
+
+\phantom{.5in} \small Role: Collaborator \hspace{.03in} | \hspace{.05in} PI: Toar Jean Maurice Lalisang (main) & Linda Erlina (co-)
+
+\normalsize Malaysian Medical Association (MMA) (MYR 5,000) \hfill 2019  \thinspace
+
+\phantom{.5in} \small Role: Collaborator \hspace{.03in} | \hspace{.05in} PI: Mohammad Asif Khan (main) & Choi Sy Bing (co-)
+
+\normalsize
+
+<!-- \newpage -->
+<!-- \normalsize -->
+
+# Teaching and Service
+
+## Graduate Student Supervisor
+\textit{Supervisor} 
+
+  Stephen Sugiharto \hspace{.03in} \textbullet \hspace{.05in} B.Sc. (Bioinformatics), I3L, ID \hfill 2022-2023 \thinspace
+
+
+<!-- \newpage -->
+
+
+## Student Mentor
+
+  Sergej Ruff \hspace{.03in} \textbullet \hspace{.05in} M.Sc. (Biomedical Data Science), MHH, DE \hfill 2024 \thinspace
+  
+  Tham Hong Yun \hspace{.03in} \textbullet \hspace{.05in} Ph.D. (Microbiology), UPM, MY \hfill 2018-2024 \thinspace
+  
+  Sofiah binti Tajuddin \hspace{.03in} \textbullet \hspace{.05in} MRes (Microbiology), UPM, MY \hfill 2019-2022 \thinspace
+  
+  Srosha Khanjou \hspace{.03in} \textbullet \hspace{.05in} BASc (Medicine), MUIC, TH \hfill 2020-2021 \thinspace
+
+  Interns at CaRE UPM*  \hspace{.03in} \textbullet \hspace{.05in} B.Sc. (Biomedical Sciences), UPM, MY \hfill 2017-2018 \thinspace
+  
+  \hspace{1.48in} \textbullet \hspace{.05in} B.Sc. (Biomedical Sciences), UM, MY \hfill 2018 \thinspace
+  
+  \scriptsize *UPM: Siti Najiha Binti Abu Bakar, Anis Zuhaida Binti Mamnun, Nor Shamira Rosdi, Muhammad Rusydie Mohd Rasid, Eugene Chua, Ong Si Ying, Teo Yu Yun, Lim Xin, Khor Winnie, Lok Zen Hui, Even Lim; UM: Aisyah Shamsuddin, Wardah Othman, Nurhusna Abd Samad
+  
+\normalsize
+
+## Outreach & Professional Societies
+\textit{Leadership}
+
+  \textbullet{} Finance Committee Member, ISCB Student Council (ISCBSC) \hfill 2023-Present \thinspace
+  
+  \textbullet{} Organizing Committee Member, APBioNETTalks \hfill 2020-2023 \thinspace
+  
+  \textbullet{} Ambassador, Asia Pacific Bioinformatics Network (APBioNET) \hfill 2021-2022 \thinspace
+  
+  \textbullet{} Public Relations & Outreach (PRO) Committee Member, Global Organisation for Bioinformatics Learning, Education & Training (GOBLET) \hfill 2019-2021 \thinspace
+  
+  \textbullet{} Executive Council of Association for Medical and Bio-Informatics Singapore (AMBIS) \hfill 2018-2019 \thinspace
+  
+  \textbullet{} Executive Council of Alumni and Leadership of Biomedical Science Club, UPM \hfill 2015
 
 
 # Presentations 
 
-## Invited talks
+## Keynote/Invited talks
+
+\normalsize
+
+An overview of the RNA virus discovery field since the 2023 RdRp Summit! 
+
+\vspace{-.07in} \hfill \small 11-12 May 2025 \thinspace
+
+\phantom{.5in} \textbullet{} \small RdRp Summit 2025, Lisbon, Portugal
 
 \normalsize
 
@@ -162,13 +303,20 @@ Unravelling the virosphere: Insights from viral discovery and sequence diversity
 
 \normalsize
 
+PREDICTORix: A scalable phylogeny-aware approach for quantifying viral spillover risk 
+
+\vspace{-.07in} \hfill \small 11-12 May 2025 \thinspace
+
+\phantom{.5in} \textbullet{} \small RdRp Summit 2025, Lisbon, Portugal
+
+\newpage
+\normalsize
+
 A near-full compression of SARS-CoV-2 peptidome using UNIQmin 
 
 \vspace{-.07in} \hfill \small 12-21 Sep 2022 \thinspace
 
 \phantom{.5in} \textbullet{} \small 21st European Conference on Computational Biology (ECCB2022), Stiges, Barcelona
-  
-\phantom{.5in} \textbullet{} \small GOBLET Fund & Malaysia Trust Fund Travel Fellowship Award
 
 \normalsize
 
@@ -178,17 +326,31 @@ Identification of highly conserved, serotype-specific dengue virus sequences: Im
 
 \phantom{.5in} \textbullet{} \small 18th International Conference on Bioinformatics (InCoB 2019), Jakarta, Indonesia
 
-\phantom{.5in} \textbullet{} \small APBioNET Travel Fellowship Award
-
-## Posters
+## Posters \small\textit{(selected)}
 
 \normalsize
 
-Identification of RNA viruses and host reservoirs with high spillover risk 
+PREDICTORix: A scalable phylogeny-aware approach for quantifying viral spillover risk
 
-\vspace{-.07in}  \hfill \small 17-21 Oct 2022 \thinspace
+\vspace{-.07in}  \hfill \small 13-15 May 2025 \thinspace
 
-\phantom{.5in} \textbullet{} EMBL-EBI: Bioinformatics approach to viruses (virtual)
+\phantom{.5in} \textbullet{} International Virus Bioinformatics Meeting (ViBioM 2025), Lisbon, Portugal
+
+\normalsize
+
+Towards quantifying zoonotic spillover risks of RNA viruses: A comprehensive approach using next-generation sequencing data
+
+\vspace{-.07in}  \hfill \small 16-20 Sep 2024 \thinspace
+
+\phantom{.5in} \textbullet{} 23rd European Conference on Computational Biology (ECCB 2024), Turku, Finland
+
+\normalsize
+
+Redefining the genetic diversity and host range of Flavi-like viruses
+
+\vspace{-.07in}  \hfill \small 25-28 Mar 2024 \thinspace
+
+\phantom{.5in} \textbullet{} 33rd Annual Meeting of the Society for Virology (GfV2024), Vienna, Austria
 
 \normalsize
 
@@ -208,20 +370,6 @@ Mapping the minimal set of the viral peptidome across all major viral taxonomies
   
   \vspace{-.07in} \phantom{.5in} Conference on Computational Biology (ISMB/ECCB 2021; virtual)
 
-\phantom{.5in} \textbullet{} ISMB/ECCB Fellowship Award
-
-\normalsize
-
-UNIQmin: An alignment-independent approach to generate a minimal set of viral peptidome 
-
-\vspace{-.07in}  \hfill \small 15-16 May 2021 \thinspace
-
-\phantom{.5in} \textbullet{} International Conference on Bioinformatics, Computational Biology, and Biomedical 
-  
-  \vspace{-.07in} \phantom{.5in} Science (ICBCBBS 2021; virtual)
-
-\phantom{.5in} \textbullet{} Best E-Poster Award
-
 \normalsize
 
 Identification of serotype-specific, highly conserved dengue virus sequences: Implications for vaccine design
@@ -230,104 +378,36 @@ Identification of serotype-specific, highly conserved dengue virus sequences: Im
 
 \phantom{.5in} \textbullet{} 17th International Conference on Bioinformatics (InCoB 2018), New Delhi, India
 
-\phantom{.5in} \textbullet{} ISCB Travel Fellowship Award
 
+# Honors and Awards
+\textbullet{} MHH Congress Scholarship – Poster presentation, ViBioM 2025 \thinspace
 
-# Grants
+\textbullet{} ISME Travel Fellowship – Oral presentation, RdRp Summit 2025 \thinspace
 
-## Intramural Funding
+\textbullet{} Best Project Award, Collaborative Bioinformatics Hackathon 2025: Machine learning and AI approaches to multimodal problems in computational biology \thinspace
 
-\normalsize Helmholtz Visiting Researcher Grant (€4,000) \hfill 2023 \thinspace
+\textbullet{} OBF Travel Fellowship – Poster presentation, ECCB 2024 \thinspace
 
-\phantom{.5in} \small Role: Visiting Trainee
+\textbullet{} GOBLET Fund & Malaysia Trust Fund Travel Fellowship – Oral presentation, ECCB 2022 \thinspace
 
-## Extramural Funding
+\textbullet{} First Prize, BCM/HGSC Virtual Hackathon 2021: Pan-structural Variation in the Cloud \thinspace
 
-\normalsize PUTI Q1 Grant from Universitas Indonesia (IDR 120 million) \hfill 2022 \thinspace
+\textbullet{} ESCV Fellowship – Poster presentation, ESCV 2021 \thinspace
 
-\phantom{.5in} \small Role: Collaborator
+\textbullet{} ISCB Fellowship – Poster presentation, ISMB/ECCB 2021 \thinspace 
 
-\phantom{.5in} \small PI: Toar Jean Maurice Lalisang (main) & Linda Erlina (co-)
-
-\normalsize Malaysian Medical Association (MMA) (MYR 5,000) \hfill 2019  \thinspace
-
-\phantom{.5in} \small Role: Collaborator
-
-\phantom{.5in} \small PI: Mohammad Asif Khan (main) & Choi Sy Bing (co-)
-
-\normalsize
-
-
-# Honors and Awards 
-
-\textbullet{} GOBLET Fund Travel Fellowship for ECCB 2022 \thinspace
-
-\textbullet{} Malaysia Trust Fund Travel Fellowship for ECCB 2022 \thinspace 
-
-\textbullet{} ESCV Fellowship for ESCV 2021 \thinspace
-
-\textbullet{} ISCB Fellowship for ISMB/ECCB 2021 \thinspace 
-
-\textbullet{} Malaysia Trust Fund for support on publication fee for `Chong et al.(2021)` \thinspace 
+\textbullet{} Malaysia Trust Fund – Support for publication fee `Chong et al.(2021)` \thinspace 
 
 \textbullet{} Best E-Poster Award, ICBCBBS 2021 \thinspace 
 
-\textbullet{} APBioNET Travel Fellowship for InCoB 2019 \thinspace
+\textbullet{} APBioNET Travel Fellowship – Oral presentation, InCoB 2019 \thinspace
 
-\textbullet{} ISCB Travel Fellowship for InCoB 2018 \thinspace
+\textbullet{} ISCB Travel Fellowship – Poster presentation, InCoB 2018 \thinspace
 
-\textbullet{} Public Service Department – National Degree Programme (JPA-PIDN) Scholarship for B.Sc. (Biomedical Sciences) 2015-2018 \thinspace
+\textbullet{} Public Service Department - National Degree Programme (JPA-PIDN) Scholarship for B.Sc. (Biomedical Sciences), 2015-2018
 
 
 \newpage
-\normalsize
-
-# Teaching and Service
-
-## Graduate Student Supervisor
-\textit{Supervisor} 
-
-  Stephen Sugiharto \hspace{.03in} \textbullet \hspace{.05in} B.Sc. (Bioinformatics), I3L, ID \hfill 2022-2023 \thinspace
-
-
-<!-- \newpage -->
-
-
-## Student Mentor
-
-  Tham Hong Yun \hspace{.03in} \textbullet \hspace{.05in} Ph.D. (Microbiology), UPM, MY \hfill 2018-2024 \thinspace
-  
-  Sofiah binti Tajuddin \hspace{.03in} \textbullet \hspace{.05in} M.Sc. (Microbiology), UPM, MY \hfill 2019-2022 \thinspace
-  
-  Srosha Khanjou \hspace{.03in} \textbullet \hspace{.05in} BASc (Medicine), MUIC, TH \hfill 2020-2021 \thinspace
-
-  Interns at CaRE UPM*  \hspace{.03in} \textbullet \hspace{.05in} B.Sc. (Biomedical Sciences), UPM, MY \hfill 2018 \thinspace
-  
-  \hspace{1.48in} \textbullet \hspace{.05in} B.Sc. (Biomedical Sciences), UM, MY \hfill 2018 \thinspace
-  
-  \scriptsize *UPM: Siti Najiha Binti Abu Bakar, Anis Zuhaida Binti Mamnun, Nor Shamira Rosdi, Muhammad Rusydie Mohd Rasid; UM: Aisyah Shamsuddin, Wardah Othman, Nurhusna Abd Samad
-  
-  \normalsize
-  Interns at CaRE UPM*  \hspace{.03in} \textbullet \hspace{.05in} B.Sc. (Biomedical Sciences), UPM, MY \hfill 2017 \thinspace
-  
-  \scriptsize *UPM: Eugene Chua, Ong Si Ying, Teo Yu Yun, Lim Xin, Khor Winnie, Lok Zen Hui, Even Lim
-  
-\normalsize
-
-## Outreach & Professional Societies
-\textit{Leadership}
-
-  \textbullet{} Finance Committee Member, ISCB Student Council (ISCBSC) \hfill 2023-Present \thinspace
-  
-  \textbullet{} Ambassador, Asia Pacific Bioinformatics Network (APBioNET) \hfill 2021-2022 \thinspace
-  
-  \textbullet{} Public Relations & Outreach (PRO) Committee Member, Global Organisation for Bioinformatics Learning, Education & Training (GOBLET) \hfill 2019-2021 \thinspace
-  
-  \textbullet{} Executive Council of Association for Medical and Bio-Informatics Singapore (AMBIS) \hfill 2018-2019 \thinspace
-  
-  \textbullet{} Executive Council of Alumni and Leadership of Biomedical Science Club, UPM \hfill 2015 \thinspace
-
-
 # References
 
 \begin{multicols}{2}
@@ -340,7 +420,7 @@ RESIST Cluster of Excellence, Medizinische Hochschule Hannover (MHH) \\
 Hannover, Germany \\
 \href{mailto:chris.lauber@twincore.de}{chris.lauber@twincore.de}
 
-\columnbreak
+\vspace{1.5em} % Adjust the space between the references
 
 \textbf{Dr. Mohammad Asif Khan} \\
 \textit{Professor and Associate Dean} \\
@@ -348,4 +428,17 @@ College of Computing and Information Technology \\
 University of Doha for Science and Technology (UDST) \\
 Doha, Qatar \\
 \href{mailto:asif.khan@udst.edu.qa}{asif.khan@udst.edu.qa}
+
+\columnbreak
+
+\textbf{Dr. Thomas Pietschmann} \\
+\textit{Director} \\
+Institute of Experimental Virology, TWINCORE GmbH \\
+\textit{Professor} \\
+RESIST Cluster of Excellence, Medizinische Hochschule Hannover (MHH) \\
+Hannover, Germany \\
+\href{mailto:thomas.pietschmann@twincore.de}{thomas.pietschmann@twincore.de}
+
 \end{multicols}
+
+

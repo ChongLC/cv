@@ -17,7 +17,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage{multicol} % multi-column layout for references
-
+\usepackage{graphicx} % for profile photo
 \usepackage{fontawesome5} % Easiest to use fontawesome, from CTAN
 % \usepackage{fontawesomenew} % newer fontawesome, from https://github.com/JanHendrikDolling/latex-fontawesome5
 \usepackage{academicons} % academic icons from CTAN
@@ -212,8 +212,20 @@ $endif$
 % TITLE BLOCK %
 %%%%%%%%%%%%%%%
 
+% Header with photo on the right
+\noindent
+\begin{minipage}[t]{0.75\textwidth}
+\vspace{0pt}
+
 % Specially designed author name, which uses secondary font
 \Title{\CVAuthor}
+
+% Insert custom header right below the name
+\vspace{0.1em}
+\begin{center}
+    \textbf{Computational Virologist | Life Science Researcher | Bioinformatician}
+\end{center}
+
 % Now the stuff under the name
 \begin{SubTitle}
 $if(title)$
@@ -237,6 +249,16 @@ $if(contact)$
     $endif$ $sep$ \enspace $endfor$
 $endif$
 \end{SubTitle}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.22\textwidth}
+\vspace{0pt}
+\raggedleft
+$if(photo)$
+\includegraphics[width=3.9cm,height=4.5cm,keepaspectratio]{$photo$}
+$endif$
+\end{minipage}
 
 \begin{Body}
 
