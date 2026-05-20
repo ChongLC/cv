@@ -64,12 +64,12 @@ print_refs <- function(file, names = NULL) {
 # Summary
 <!-- An enthusiastic scientist with a profound interest in viral evolution and the application of vaccine design. Given the importance of bioinformatics in biomedical science research, I began my transition from bench-work to bioinformatics since 2017. I am interested in better understanding how vaccines/drugs work towards a more effective prevention/clearance of viral diseases, and how to overcome diseases with no or lack of an effective prophylactic or therapeutic intervention. Currently, my focus is on assessing the spillover risks and patterns that contribute to the pandemic potential of RNA viruses. -->
 
-I am a computational virologist working at the interface of viral evolution, large-scale sequence analysis, and data-driven modeling. My research focuses on understanding viral diversity and emergence using high-throughput sequencing data. I develop scalable computational approaches for virus discovery, diversity analysis, and spillover risk assessment, with a particular interest in quantitative and integrative frameworks for studying viral evolution.
+Computational virologist working at the interface of viral evolution, large-scale sequence analysis, and data-driven approaches in computational biology. My research focuses on understanding viral diversity and emergence using high-throughput sequencing data. I develop scalable computational approaches for virus discovery, diversity analysis, and spillover risk assessment, with a particular interest in quantitative and integrative frameworks for studying viral evolution.
 
-Currently, I am a PhD candidate in Biomedical Data Science at Hannover Medical School (TWINCORE), where my work is associated with the COVIPA consortium that focus on gathering the knowledge about virological and immunological drivers of COVID-19 pathogenesis.
+Currently, I am a PhD candidate in Biomedical Data Science at Hannover Medical School (TWINCORE), where my work is associated with the COVIPA consortium focused on understanding virological and immunological drivers of COVID-19 pathogenesis.
 \thinspace
 
-\small Virus evolution \hspace{.03in} \textbullet \hspace{.03in} Virus discovery \hspace{.03in} \textbullet \hspace{.03in} Spillover risk modelling
+\small Virus evolution \hspace{.03in} \textbullet \hspace{.03in} Virus discovery \hspace{.03in} \textbullet \hspace{.03in} Spillover risk assessment
 
 
 # Current Appointments
@@ -127,28 +127,28 @@ Currently, I am a PhD candidate in Biomedical Data Science at Hannover Medical S
 
 # Skills
 ## Experimental Techniques (previously used)
-- **Molecular biology**: Plasmid/DNA extraction, Gel electrophoresis (Agarose/SDS-PAGE), Protein expression, Western blotting (semi-dry method), Bradford assay, Protein quantification, Immobilised metal affinity chromatography (IMAC), Gravity-flow chromatography, Size exclusion chromatography (Fast protein liquid chromatography (FPLC)), Circular dichroism (CD), Dynamic light scattering (DLS), Polymerase Chain Reaction (PCR)
-- **_In vivo_ techniques**: Rat/mice dissection, Animal phlebotomy (rat/mice/dog model)
+- **Molecular and structural biology**: DNA/plasmid extraction, PCR, protein expression and purification, electrophoresis, western blotting, chromatography (IMAC, FPLC), protein characterisation (CD, DLS)
+- **_In vivo_ techniques**: Laboratory animal handling, dissection, and phlebotomy
 
 ## Bioinformatics
-- **Comparative genomics & Phylogenetics**: Multiple sequence alignment, Molecular phylogenetics, Sequence clustering, Phylogenetic tree construction
-- **Vaccine informatics & Immunoinformatics**: Entropy-based quantitative analysis, Motif identifitransmission analysis, Diversity analysis, Immune-relevance analysis
-- **Structural bioinformatics**: Protein and RNA structure annotation, Structural visualisation (PyMOL, UCSF Chimera, VMD), Secondary structure prediction, Protein primary structure analysis, Protein-protein docking analysis, Protein-protein interaction analysis
-- **Viral informatics & Metagenomics**: Viral genome annotation, SRA-based virus discovery, Metagenomic virome profiling (Taxonomic chracterization of viromes, Abundance estimation of viral population), Host-pathogen interaction analysis
+- **Comparative genomics & Phylogenetics**: Multiple sequence alignment, phylogenetic analysis, sequence clustering, evolutionary analysis
+- **Vaccine informatics & Immunoinformatics**: Entropy-based quantitative analysis, motif identification analysis, diversity analysis, immune-relevance analysis
+- **Structural bioinformatics**: Protein and RNA structure annotation, structural visualisation (PyMOL, UCSF Chimera, VMD), secondary structure prediction, protein structure analysis, protein-protein docking and interaction analysis
+- **Viral informatics & Metagenomics**: Viral genome annotation, SRA-based virus discovery, metagenomic virome profiling (Taxonomic chracterization of viromes, Abundance estimation of viral population), host-pathogen interaction analysis
 - **High performance computing (HPC) environments**: PBS, SLURM
 - **Workflow automation and management**: Snakemake
 
 ## Data Science
-- Exploratory data analysis, Data visualisation, Web scraping, Application development, Biostatistics
+- Exploratory data analysis, data visualisation, biostatistics, web scraping, application development
 
 ## Web Development
 - HTML, CSS, JavaScript
 
 ## Programming Languages (intermediate)
-- Python, R, Shell scripting, GitHub CI/CD pipeline
+- Python, R, shell scripting, GitHub CI/CD pipeline
 
 
-\newpage
+
 # Publications
 **Citations:** 395 | **h-index:** 11 | **Papers Published:** 25
 
@@ -233,6 +233,8 @@ print_refs("books.bib")
 
 <!-- \newpage -->
 <!-- \normalsize -->
+\newpage
+
 
 # Teaching and Service
 
@@ -247,19 +249,21 @@ print_refs("books.bib")
 
 ## Student Mentor
 
+  Pendy Tok \hspace{.03in} \textbullet \hspace{.05in} MRes (Bioinformatics), UM, MY \hfill 2021-Present \thinspace
+  
   Sergej Ruff \hspace{.03in} \textbullet \hspace{.05in} M.Sc. (Biomedical Data Science), MHH, DE \hfill 2024 \thinspace
   
   Tham Hong Yun \hspace{.03in} \textbullet \hspace{.05in} Ph.D. (Microbiology), UPM, MY \hfill 2018-2024 \thinspace
   
   Sofiah binti Tajuddin \hspace{.03in} \textbullet \hspace{.05in} MRes (Microbiology), UPM, MY \hfill 2019-2022 \thinspace
   
+  Interns and student volunteers at BVU  \hspace{.03in} \textbullet \hspace{.05in} Beykoz Institute of Life Sciences and Biotechnology (BILSAB), TR \hfill 2021 \thinspace
+  
   Srosha Khanjou \hspace{.03in} \textbullet \hspace{.05in} BASc (Medicine), MUIC, TH \hfill 2020-2021 \thinspace
 
-  Interns at CaRE UPM*  \hspace{.03in} \textbullet \hspace{.05in} B.Sc. (Biomedical Sciences), UPM, MY \hfill 2017-2018 \thinspace
+  Interns at CaRE UPM  \hspace{.03in} \textbullet \hspace{.05in} B.Sc. (Biomedical Sciences), UPM, MY \hfill 2017-2018 \thinspace
   
-  \hspace{1.48in} \textbullet \hspace{.05in} B.Sc. (Biomedical Sciences), UM, MY \hfill 2018 \thinspace
-  
-  \scriptsize *UPM: Siti Najiha Binti Abu Bakar, Anis Zuhaida Binti Mamnun, Nor Shamira Rosdi, Muhammad Rusydie Mohd Rasid, Eugene Chua, Ong Si Ying, Teo Yu Yun, Lim Xin, Khor Winnie, Lok Zen Hui, Even Lim; UM: Aisyah Shamsuddin, Wardah Othman, Nurhusna Abd Samad
+  \hspace{1.42in} \textbullet \hspace{.05in} B.Sc. (Biomedical Sciences), UM, MY \hfill 2018 \thinspace
   
 \normalsize
 
@@ -309,7 +313,7 @@ PREDICTORix: A scalable phylogeny-aware approach for quantifying viral spillover
 
 \phantom{.5in} \textbullet{} \small RdRp Summit 2025, Lisbon, Portugal
 
-\newpage
+<!--\newpage-->
 \normalsize
 
 A near-full compression of SARS-CoV-2 peptidome using UNIQmin 
@@ -326,6 +330,7 @@ Identification of highly conserved, serotype-specific dengue virus sequences: Im
 
 \phantom{.5in} \textbullet{} \small 18th International Conference on Bioinformatics (InCoB 2019), Jakarta, Indonesia
 
+\newpage
 ## Posters \small\textit{(selected)}
 
 \normalsize
@@ -346,14 +351,6 @@ Towards quantifying zoonotic spillover risks of RNA viruses: A comprehensive app
 
 \normalsize
 
-Redefining the genetic diversity and host range of Flavi-like viruses
-
-\vspace{-.07in}  \hfill \small 25-28 Mar 2024 \thinspace
-
-\phantom{.5in} \textbullet{} 33rd Annual Meeting of the Society for Virology (GfV2024), Vienna, Austria
-
-\normalsize
-
 UNIQmin, an alignment-independent tool for the study of viral sequence diversity at any given rank of taxonomy lineage: HPC solutions for big-data performance boost 
 
 \vspace{-.07in}  \hfill \small 30 Aug-3 Sep 2021 \thinspace
@@ -370,19 +367,14 @@ Mapping the minimal set of the viral peptidome across all major viral taxonomies
   
   \vspace{-.07in} \phantom{.5in} Conference on Computational Biology (ISMB/ECCB 2021; virtual)
 
-\normalsize
-
-Identification of serotype-specific, highly conserved dengue virus sequences: Implications for vaccine design
-
-\vspace{-.07in}  \hfill \small 26-28 Sep 2018 \thinspace
-
-\phantom{.5in} \textbullet{} 17th International Conference on Bioinformatics (InCoB 2018), New Delhi, India
 
 
 # Honors and Awards
-\textbullet{} MHH Congress Scholarship – Poster presentation, ViBioM 2025 \thinspace
+\vspace{0.35cm}
 
-\textbullet{} ISME Travel Fellowship – Oral presentation, RdRp Summit 2025 \thinspace
+\noindent\textit{(selected)}
+
+\textbullet{} MHH Congress Scholarship & ISME Travel Fellowship – Oral & Poster presentation, 2nd RdRp Summit & ViBioM2025 \thinspace
 
 \textbullet{} Best Project Award, Collaborative Bioinformatics Hackathon 2025: Machine learning and AI approaches to multimodal problems in computational biology \thinspace
 
@@ -396,18 +388,14 @@ Identification of serotype-specific, highly conserved dengue virus sequences: Im
 
 \textbullet{} ISCB Fellowship – Poster presentation, ISMB/ECCB 2021 \thinspace 
 
-\textbullet{} Malaysia Trust Fund – Support for publication fee `Chong et al.(2021)` \thinspace 
-
 \textbullet{} Best E-Poster Award, ICBCBBS 2021 \thinspace 
 
 \textbullet{} APBioNET Travel Fellowship – Oral presentation, InCoB 2019 \thinspace
 
-\textbullet{} ISCB Travel Fellowship – Poster presentation, InCoB 2018 \thinspace
-
 \textbullet{} Public Service Department - National Degree Programme (JPA-PIDN) Scholarship for B.Sc. (Biomedical Sciences), 2015-2018
 
 
-\newpage
+<!--\newpage-->
 # References
 
 \begin{multicols}{2}
